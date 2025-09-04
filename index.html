@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سورة الكهف وسورة الملك</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="Untitled-java script.js">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <h1>القرآن الكريم — الكهف & الملك</h1>
+    </div>
+    <nav class="tabs">
+      <button class="tab active" data-surah="18">سورة الكهف</button>
+      <button class="tab" data-surah="67">سورة الملك</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label class="search">
+        <input id="q" type="search" placeholder="ابحث داخل السورة الحالية..." />
+      </label>
+      <div class="meta" id="meta"></div>
+    </section>
+
+    <section id="content" class="content" aria-live="polite">
+      <p>جارٍ تحميل السورة…</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>المصدر: <a href="https://alquran.cloud/api" target="_blank">Al Quran Cloud API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
